@@ -1,90 +1,274 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>SMS Consent and Messaging Information | Book By Text</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMS Consent and Messaging Information | Book By Text</title>
+  <meta
+    name="description"
+    content="SMS consent and messaging information for Book By Text. Learn how customers opt in, message frequency, help instructions, and opt-out options."
+  />
+  <style>
+    :root{
+      --bg:#0b2a55;
+      --card:#ffffff;
+      --ink:#0f172a;
+      --muted:#475569;
+      --line:#e2e8f0;
+      --accent:#16c2b8;
+      --btn:#0b2a55;
+      --btnInk:#ffffff;
+    }
+
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--ink);
+      background:linear-gradient(180deg, rgba(11,42,85,1) 0%, rgba(11,42,85,1) 220px, #f8fafc 220px, #f8fafc 100%);
+    }
+
+    .wrap{max-width:980px; margin:0 auto; padding:28px 18px 56px;}
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      color:#fff;
+      gap:16px;
+      margin-bottom:18px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-weight:800;
+      letter-spacing:.2px;
+      font-size:20px;
+    }
+
+    .brandMark{
+      width:28px;
+      height:28px;
+      border-radius:8px;
+      background:rgba(255,255,255,.14);
+      display:grid;
+      place-items:center;
+      font-size:16px;
+    }
+
+    .nav{
+      display:flex;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .nav a{
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      opacity:.95;
+    }
+
+    .hero{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.14);
+      color:#fff;
+      border-radius:24px;
+      padding:28px;
+      box-shadow:0 10px 30px rgba(2,8,23,.10);
+      margin-bottom:22px;
+    }
+
+    .hero h1{
+      margin:0 0 10px;
+      font-size:44px;
+      line-height:1.05;
+      letter-spacing:-.02em;
+    }
+
+    .hero p{
+      margin:0;
+      max-width:760px;
+      color:rgba(255,255,255,.92);
+      font-size:20px;
+      line-height:1.5;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:28px;
+      box-shadow:0 10px 30px rgba(2,8,23,.06);
+    }
+
+    h2{
+      font-size:18px;
+      margin:26px 0 12px;
+    }
+
+    h2:first-child{
+      margin-top:0;
+    }
+
+    p, li{
+      color:var(--ink);
+      line-height:1.7;
+      font-size:18px;
+    }
+
+    ul{
+      margin-top:8px;
+      padding-left:24px;
+    }
+
+    .messageBox{
+      background:#f8fafc;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+
+    .messageLabel{
+      font-weight:800;
+      margin-bottom:8px;
+    }
+
+    .policy-links a{
+      color:var(--btn);
+      font-weight:700;
+      text-decoration:none;
+    }
+
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+      margin-top:26px;
+      line-height:1.7;
+    }
+
+    footer a{
+      color:var(--btn);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    @media (max-width: 720px){
+      .hero h1{font-size:34px;}
+      .hero p{font-size:18px;}
+    }
+  </style>
 </head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="brandMark">✓</div>
+        <div>Book By Text</div>
+      </div>
 
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 40px; line-height: 1.6;">
+      <div class="nav">
+        <a href="https://getbookbytext.com/privacy">Privacy</a>
+        <a href="https://getbookbytext.com/terms">Terms</a>
+      </div>
+    </div>
 
-<h1>SMS Consent and Messaging Information</h1>
+    <section class="hero">
+      <h1>SMS Consent and Messaging Information</h1>
+      <p>
+        This page explains how customers opt in to receive SMS messages from businesses using Book By Text
+        and provides public compliance information for messaging verification.
+      </p>
+    </section>
 
-<h2>How Customers Opt In</h2>
+    <section class="card">
+      <h2>How Customers Opt In</h2>
 
-<p>
-Customers opt in to receive SMS messages from businesses using Book By Text by texting the business’s publicly advertised booking number.
-</p>
+      <p>
+        Customers opt in to receive SMS messages from businesses using Book By Text by texting the business’s
+        publicly advertised booking number.
+      </p>
 
-<p>The booking number may appear on:</p>
+      <p>The booking number may appear on:</p>
 
-<ul>
-<li>the business website</li>
-<li>booking instructions</li>
-<li>business signage</li>
-<li>marketing materials</li>
-</ul>
+      <ul>
+        <li>the business website</li>
+        <li>booking instructions</li>
+        <li>business signage</li>
+        <li>marketing materials</li>
+      </ul>
 
-<p>
-When a customer sends the first message to the booking number, they initiate the conversation and consent to receive automated SMS messages related to appointment scheduling and customer service.
-</p>
+      <p>
+        When a customer sends the first message to the booking number, they initiate the conversation and consent
+        to receive automated SMS messages related to appointment scheduling and customer service.
+      </p>
 
-<h2>Example Message Flow</h2>
+      <h2>Example Message Flow</h2>
 
-<p><strong>Customer texts:</strong></p>
+      <div class="messageBox">
+        <div class="messageLabel">Customer texts:</div>
+        <p>Hi</p>
+      </div>
 
-<p>Hi</p>
+      <div class="messageBox">
+        <div class="messageLabel">System response:</div>
+        <p>Hi — thanks for texting Bella Salon booking.</p>
 
-<p><strong>System response:</strong></p>
+        <p>
+          This service is powered by Book By Text, the automated appointment assistant for Bella Salon.
+        </p>
 
-<p>
-Hi — thanks for texting Bella Salon booking.
-</p>
+        <p>
+          Reply:<br>
+          1 – Book<br>
+          2 – Reschedule<br>
+          3 – Cancel<br>
+          4 – Hours
+        </p>
 
-<p>
-This service is powered by Book By Text, the automated appointment assistant for Bella Salon.
-</p>
+        <p>
+          Reply STOP, END, or UNSUBSCRIBE to opt out.<br>
+          Reply HELP for assistance.<br>
+          Message &amp; data rates may apply.<br>
+          Message frequency varies based on appointment activity.
+        </p>
+      </div>
 
-<p>
-Reply:<br>
-1 – Book<br>
-2 – Reschedule<br>
-3 – Cancel<br>
-4 – Hours
-</p>
+      <h2>Opt-Out Instructions</h2>
 
-<p>
-Reply STOP, END, or UNSUBSCRIBE to opt out.<br>
-Reply HELP for assistance.<br>
-Message & data rates may apply.<br>
-Message frequency varies based on appointment activity.
-</p>
+      <p>Customers may opt out at any time by replying:</p>
 
-<h2>Opt-Out Instructions</h2>
+      <ul>
+        <li>STOP</li>
+        <li>END</li>
+        <li>UNSUBSCRIBE</li>
+      </ul>
 
-<p>Customers may opt out at any time by replying:</p>
+      <h2>Help Instructions</h2>
 
-<ul>
-<li>STOP</li>
-<li>END</li>
-<li>UNSUBSCRIBE</li>
-</ul>
+      <p>Customers may request assistance by replying:</p>
+      <p><strong>HELP</strong></p>
 
-<h2>Help</h2>
+      <h2>Policies</h2>
 
-<p>Customers may request assistance by replying:</p>
+      <div class="policy-links">
+        <p><a href="https://getbookbytext.com/privacy">Privacy Policy</a></p>
+        <p><a href="https://getbookbytext.com/terms">Terms of Service</a></p>
+      </div>
+    </section>
 
-<p>HELP</p>
-
-<h2>Policies</h2>
-
-<p>
-<a href="https://getbookbytext.com/privacy">Privacy Policy</a>
-</p>
-
-<p>
-<a href="https://getbookbytext.com/terms">Terms of Service</a>
-</p>
-
+    <footer>
+      © 2026 Genser Group LLC — Book By Text<br>
+      Book By Text is operated by Genser Group LLC<br>
+      Maryland, United States<br>
+      Contact: wyatt@gensergroup.net<br>
+      <a href="https://getbookbytext.com/privacy">Privacy Policy</a> ·
+      <a href="https://getbookbytext.com/terms">Terms of Service</a>
+    </footer>
+  </div>
 </body>
 </html>
